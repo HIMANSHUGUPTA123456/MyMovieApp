@@ -21,6 +21,9 @@ To run the application make sure you have Expo Go app on your device and paste (
 - To mark a movie as a favorite, tap on the heart icon on the Movie Detail screen.
 - Access your favorite movies by navigating to the Favorites screen.
 
+## Project Depenedencies
+
+
 ## Contributing
 
 Contributions to the My Movie App project are welcome! If you encounter any bugs, issues, or have suggestions for improvements, please feel free to open an issue or submit a pull request.
@@ -33,4 +36,5 @@ Contributions to the My Movie App project are welcome! If you encounter any bugs
 ## Contact
 
 For any inquiries or questions about the My Movie App, please reach out to gupta.103@iitj.ac.in
+
 
