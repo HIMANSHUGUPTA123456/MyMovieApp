@@ -22,7 +22,23 @@ To run the application make sure you have Expo Go app on your device and paste (
 - Access your favorite movies by navigating to the Favorites screen.
 
 ## Project Depenedencies
-
+- "@react-native-async-storage/async-storage": "^1.17.11",
+- "@react-native-community/masked-view": "^0.1.11",
+- "@react-navigation/native": "^6.1.7",
+- "@react-navigation/native-stack": "^6.9.13",
+- "@react-navigation/stack": "^6.3.17",
+- "axios": "^1.4.0",
+- "expo": "~48.0.18",
+- "expo-async-storage": "^0.0.0",
+- "expo-constants": "~14.2.1",
+- "expo-status-bar": "~1.4.4",
+- "react": "18.2.0",
+- "react-native": "0.71.8",
+- "react-native-gesture-handler": "~2.9.0",
+- "react-native-reanimated": "~2.14.4",
+- "react-native-safe-area-context": "^4.5.0",
+- "react-native-screens": "~3.20.0",
+- "react-native-webview": "^11.26.0"
 
 ## Contributing
 
