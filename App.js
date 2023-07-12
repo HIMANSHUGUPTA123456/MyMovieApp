@@ -1,5 +1,5 @@
 import React from 'react';
-import { StatusBar, StyleSheet, View, Image } from 'react-native';
+import { StatusBar, StyleSheet, View, ImageBackground } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import SearchScreen from './screens/SearchScreen';
@@ -11,14 +11,34 @@ const Stack = createNativeStackNavigator();
 const App = () => {
   return (
     <View style={styles.container}>
-      <NavigationContainer>
-        <Stack.Navigator>
-          <Stack.Screen name="Search" component={SearchScreen} options={{ title: 'Search Movies' }} />
-          <Stack.Screen name="MovieDetail" component={MovieDetailScreen} options={{ title: 'Movie Details' }} />
-          <Stack.Screen name="Favorites" component={FavoritesScreen} options={{ title: 'Favorites' }} />
-        </Stack.Navigator>
-      </NavigationContainer>
       <StatusBar style="auto" />
+      <ImageBackground source={require('./screens/background.jpeg')} style={styles.backgroundImage}>
+        <NavigationContainer>
+          <Stack.Navigator
+            screenOptions={{
+              headerStyle: { backgroundColor: 'transparent' },
+              headerTitleStyle: { color: 'white' },
+              headerTintColor: 'white',
+            }}
+          >
+            <Stack.Screen
+              name="Search"
+              component={SearchScreen}
+              options={{ title: 'Search Movies' }}
+            />
+            <Stack.Screen
+              name="MovieDetail"
+              component={MovieDetailScreen}
+              options={{ title: 'Movie Details' }}
+            />
+            <Stack.Screen
+              name="Favorites"
+              component={FavoritesScreen}
+              options={{ title: 'Favorites' }}
+            />
+          </Stack.Navigator>
+        </NavigationContainer>
+      </ImageBackground>
     </View>
   );
 };
@@ -26,7 +46,11 @@ const App = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    // backgroundColor: "white",
+  },
+  backgroundImage: {
+    flex: 1,
+    resizeMode: 'cover',
+    justifyContent: 'center',
   },
 });
 
