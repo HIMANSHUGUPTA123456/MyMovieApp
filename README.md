@@ -11,7 +11,15 @@ Welcome to My Movie App! This is a React Native application that allows users to
 
 ## Installation
 
-To run the application make sure you have Expo Go app on your device and paste (exp://exp.host/@himanshugupta6/my-movie-app?release-channel=default) this under URL section.
+To install and run the My Movie App on your device, please follow these steps:
+
+1. Clone the repository: `git clone https://github.com/HIMANSHUGUPTA123456/my-movie-app.git`
+2. Navigate to the project directory: `cd my-movie-app`
+3. Install dependencies: `npm install`
+4. Start the Metro development server: `npm start`
+5. Scan the QR code with the Expo Go app or use the provided links to open the app on an emulator or physical device.
+
+Note: Make sure you have Node.js, npm, and Expo CLI installed on your system.
 
 
 ## Usage
