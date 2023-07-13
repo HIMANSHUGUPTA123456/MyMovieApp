@@ -13,7 +13,7 @@ Welcome to My Movie App! This is a React Native application that allows users to
 
 To install and run the My Movie App on your device, please follow these steps:
 
-1. Clone the repository: `git clone https://github.com/HIMANSHUGUPTA123456/my-movie-app.git`
+1. Clone the repository: `git clone https://github.com/HIMANSHUGUPTA123456/MyMovieApp.git`
 2. Navigate to the project directory: `cd my-movie-app`
 3. Install dependencies: `npm install`
 4. Start the Metro development server: `npm start`
